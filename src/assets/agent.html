@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="./css/agent-style.css">
+    <title>Document</title>
+</head>
+<body>
+    <iframe id="slide1" src="./index.html" frameborder="0"></iframe>
+    <iframe id="slide2" src="./index1.html" frameborder="0"></iframe>
+    <iframe id="slide3" src="./Logo.html" frameborder="0"></iframe>
+    <iframe id="slide4" src="./Arz.html" frameborder="0"></iframe>
+    <iframe id="slide5" src="./news.html" frameborder="0"></iframe>
+    <iframe id="slide6" src="./Logo.html" frameborder="0"></iframe>
+    <iframe id="slide7" src="./video.html" frameborder="0"></iframe>
+    <iframe id="slide8" src="./better-new.html" frameborder="0"></iframe>
+    <iframe id="slide9" src="./Logo.html" frameborder="0"></iframe>
+
+</body>
+<script>
+   let slide1 = document.getElementById("slide1");
+let slide2 = document.getElementById("slide2");
+let slide3 = document.getElementById("slide3");
+let slide4 = document.getElementById("slide4");
+let slide5 = document.getElementById("slide5");
+let slide6 = document.getElementById("slide6");
+let slide7 = document.getElementById("slide7");
+let slide8 = document.getElementById("slide8");
+let slide9 = document.getElementById("slide9");
+
+function showSlide1() {
+    slide1.style.display = "block";
+    slide2.style.display = "none";
+    slide3.style.display = "none";
+    slide4.style.display = "none";
+    slide5.style.display = "none";
+    slide6.style.display = "none";
+    slide7.style.display = "none";
+    slide8.style.display = "none";
+    slide9.style.display = "none";
+
+    setTimeout(showSlide2, 300000);
+}
+
+function showSlide2() {
+    slide1.style.display = "none";
+    slide2.style.display = "block";
+    slide3.style.display = "none";
+    slide4.style.display = "none";
+    slide5.style.display = "none";
+    slide6.style.display = "none";
+    slide7.style.display = "none";
+    slide8.style.display = "none";
+    slide9.style.display = "none";
+    setTimeout(showSlide3, 300000);
+}
+
+function showSlide3() {
+    slide1.style.display = "none";
+    slide2.style.display = "none";
+    slide3.style.display = "block";
+    slide4.style.display = "none";
+    slide5.style.display = "none";
+    slide6.style.display = "none";
+    slide7.style.display = "none";
+    slide8.style.display = "none";
+    slide9.style.display = "none";
+    setTimeout(showSlide4, 300000);
+}
+
+function showSlide4() {
+    slide1.style.display = "none";
+    slide2.style.display = "none";
+    slide3.style.display = "none";
+    slide4.style.display = "block";
+    slide5.style.display = "none";
+    slide6.style.display = "none";
+    slide7.style.display = "none";
+    slide8.style.display = "none";
+    slide9.style.display = "none";;
+    setTimeout(showSlide5, 300000);
+}
+function showSlide5() {
+    slide1.style.display = "none";
+    slide2.style.display = "none";
+    slide3.style.display = "none";
+    slide4.style.display = "none";
+    slide5.style.display = "block";
+    slide6.style.display = "none";
+    slide7.style.display = "none";
+    slide8.style.display = "none";
+    slide9.style.display = "none";
+    setTimeout(showSlide6, 300000);
+}
+function showSlide6() {
+    slide1.style.display = "none";
+    slide2.style.display = "none";
+    slide3.style.display = "none";
+    slide4.style.display = "none";
+    slide5.style.display = "none";
+    slide6.style.display = "block";
+    slide7.style.display = "none";
+    slide8.style.display = "none";
+    slide9.style.display = "none";;
+
+    setTimeout(showSlide7, 300000);
+}
+function showSlide7() {
+    slide1.style.display = "none";
+    slide2.style.display = "none";
+    slide3.style.display = "none";
+    slide4.style.display = "none";
+    slide5.style.display = "none";
+    slide6.style.display = "none";
+    slide7.style.display = "block";
+    slide8.style.display = "none";
+    slide9.style.display = "none";;
+
+    setTimeout(showSlide8, 390000);
+}
+function showSlide8() {
+    slide1.style.display = "none";
+    slide2.style.display = "none";
+    slide3.style.display = "none";
+    slide4.style.display = "none";
+    slide5.style.display = "none";
+    slide6.style.display = "none";
+    slide7.style.display = "none";
+    slide8.style.display = "block";
+    slide9.style.display = "none";;
+
+    setTimeout(showSlide9, 300000);
+}
+function showSlide9() {
+    slide1.style.display = "none";
+    slide2.style.display = "none";
+    slide3.style.display = "none";
+    slide4.style.display = "none";
+    slide5.style.display = "none";
+    slide6.style.display = "none";
+    slide7.style.display = "none";
+    slide8.style.display = "none";
+    slide9.style.display = "block";;
+
+    setTimeout(showSlide1, 300000);
+}
+// شروع از نمایش اسلاید اول
+showSlide1();
+
+</script>
+</html>
